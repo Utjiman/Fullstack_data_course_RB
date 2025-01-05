@@ -49,16 +49,16 @@ Throughout the course, there will be video lectures covering all parts
 
 | Week   | Content                                 | Lecture |
 | ------ | --------------------------------------- | ------- |
-| week 2 | **agile, clean code**                   |         |
-|        | - SOLID principles                      |         |
-|        | - DRY principle                         |         |
-|        | - agile manifesto                       |         |
-| week 3 | **project**                             |         |
-|        | - unit tests                            |         |
+| week 2 | **unit test**                           |         |
+|        | - pytest                                |         |
+| week 3 | **project start**                       |         |
+|        | - working with API                      |         |
 |        | - git branches, pull requests           |         |
+|        | - github projects for kanban            |         |
+|        | - issues                                |         |
 | week 4 | **continous integration (CI), project** |         |
 |        | - github actions                        |         |
-|        | - toolings: black, flake8, TBD          |         |
+|        | - toolings: black, flake8               |         |
 | week 5 | **continous deployment (CD), project**  |         |
 |        | - github actions for CD                 |         |
 | week 6 | **project**                             |         |
