@@ -49,13 +49,13 @@ Throughout the course, there will be video lectures covering all parts
 
 | Week   | Content                                 | Lecture |
 | ------ | --------------------------------------- | ------- |
-| week 2 | **unit test**                           |         |
-|        | - pytest                                |         |
+| week 2 | **API**                                 |         |
+|        | - get data from API                     |         |
 | week 3 | **project start**                       |         |
-|        | - working with API                      |         |
 |        | - git branches, pull requests           |         |
 |        | - github projects for kanban            |         |
 |        | - issues                                |         |
+|        | - create a package                      |         |
 | week 4 | **continous integration (CI), project** |         |
 |        | - github actions                        |         |
 |        | - toolings: black, flake8               |         |
