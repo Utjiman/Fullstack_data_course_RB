@@ -49,7 +49,7 @@ Throughout the course, there will be video lectures covering all parts
 
 | Week   | Content                                 | Lecture |
 | ------ | --------------------------------------- | ------- |
-| week 2 | **API**                                 |         |
+| week 2 | **API**                                 | 11      |
 |        | - get data from API                     |         |
 | week 3 | **project start**                       |         |
 |        | - git branches, pull requests           |         |
