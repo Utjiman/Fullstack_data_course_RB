@@ -26,4 +26,3 @@ class DatabaseDataFrame(Database):
         return self.connection.execute(query).df()
 
 
-!!
