@@ -24,3 +24,6 @@ class Database:
 class DatabaseDataFrame(Database):
     def query(self, query):
         return self.connection.execute(query).df()
+
+
+!!
