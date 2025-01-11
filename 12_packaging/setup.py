@@ -7,15 +7,16 @@ from setuptools import find_packages
 print(find_packages())
 
 setup(
-    name = "travel_planner",
+    name="travel_planner",
     version="1.0.0",
-    description="this package contains some sample hello world code",
-    author = "Kokchun Giang",
+    description="""
+    This package is used for travel planning in public transport. 
+    It has backend code, frontend code and utils.  
+    """,
+    author="Kokchun Giang",
     author_email="kokchun.giang@aigineer.se",
-    #url
-    #install_requires = []
-    packages=find_packages(exclude=("test*",)),
-    entry_points = {
-        "console_scripts": ["hello-world-cli = hello_world.main:main"]
-    }
+    # url
+    install_requires=["streamlit", "pandas", "duckdb"],
+    packages=find_packages(exclude=("test*", "explorations")),
+    entry_points={"console_scripts": ["dashboard = run_dashboard:main"]},
 )
