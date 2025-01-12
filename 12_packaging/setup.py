@@ -13,10 +13,10 @@ setup(
     This package is used for travel planning in public transport. 
     It has backend code, frontend code and utils.  
     """,
-    author="Kokchun Giang",
-    author_email="kokchun.giang@aigineer.se",
+    author="Kokchun",
+    author_email="YOUR_EMAIL@mail.com",
     # url
     install_requires=["streamlit", "pandas", "duckdb"],
     packages=find_packages(exclude=("test*", "explorations")),
-    entry_points={"console_scripts": ["dashboard = run_dashboard:main"]},
+    entry_points={"console_scripts": ["dashboard = utils.run_dashboard:run_dashboard"]},
 )

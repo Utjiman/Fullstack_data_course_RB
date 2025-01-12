@@ -1,5 +1,10 @@
 from subprocess import run
-def main():
-    pass
+from utils.constants import FRONTEND_PATH
 
-    # code to run dashboard
+
+def run_dashboard():
+    run(["streamlit", "run", FRONTEND_PATH / "dashboard.py"])
+
+
+if __name__ == "__main__":
+    run_dashboard()
