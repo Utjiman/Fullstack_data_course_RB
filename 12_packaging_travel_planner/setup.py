@@ -6,7 +6,7 @@ print(find_packages())
 
 setup(
     name="travel_planner",
-    version="1.0.0",
+    version="0.0.1",
     description="""
     This package is used for travel planning in public transport. 
     It has backend code, frontend code and utils.  
