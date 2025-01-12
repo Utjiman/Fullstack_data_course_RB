@@ -4,11 +4,29 @@ import pandas as pd
 resrobot = ResRobot()
 
 
-class TripData:
-    # check explorations to find id
+class TripPlanner:
+    """
+    A class to interact with Resrobot API to plan trips and retrieve details of available journeys.
+
+    Check explorations to find id for your location
+
+    Attributes:
+    ----------
+    trips : list
+        A list of trips retrieved from the Resrobot API for the specified origin and destination.
+    number_trips : int
+        The total number of trips available for the specified origin and destination.
+
+    Methods:
+    -------
+    next_available_trip() -> pd.DataFrame:
+        Returns a DataFrame containing details of the next available trip, including stop names,
+        coordinates, departure and arrival times, and dates.
+    next_available_trips_today() -> list[pd.DataFrame]
+        Returns a list of DataFrame objects, where each DataFrame contains similar content as next_available_trip()
+    """
+
     def __init__(self, origin_id, destination_id) -> None:
-        # umea_id = 740000190
-        # gothenburg_id = 740000002
 
         self.trips = resrobot.trips(origin_id, destination_id).get("Trip")
         self.number_trips = len(self.trips)
@@ -40,7 +58,7 @@ class TripData:
             ]
         ]
 
-    def next_available_trips_today(self) -> list(pd.DataFrame):
+    def next_available_trips_today(self) -> list[pd.DataFrame]:
         """Fetches all available trips today between the origin_id and destination_id
         It returns a list of DataFrame objects, where each item corresponds to a trip
         """
