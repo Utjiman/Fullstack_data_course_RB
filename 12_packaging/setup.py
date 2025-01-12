@@ -1,8 +1,6 @@
 from setuptools import setup
 from setuptools import find_packages
 
-# NOT FINISHED YET
-
 # find_packages will find all the packages with __init__.py
 print(find_packages())
 
