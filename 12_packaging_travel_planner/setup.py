@@ -13,8 +13,7 @@ setup(
     """,
     author="Kokchun",
     author_email="YOUR_EMAIL@mail.com",
-    # url
-    install_requires=["streamlit", "pandas", "duckdb"],
+    install_requires=["streamlit", "pandas", "folium", "requests"],
     packages=find_packages(exclude=("test*", "explorations")),
     entry_points={"console_scripts": ["dashboard = utils.run_dashboard:run_dashboard"]},
 )
