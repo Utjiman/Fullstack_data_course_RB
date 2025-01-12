@@ -7,8 +7,6 @@ As we've noticed, using python scripts and importing other modules from sibling 
 - :white_check_mark: in docker container PYTHONPATH can be used 
 - :white_check_mark: creating a package that you can install - do this
 
-TODO: video
-
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_platform/packaging.png?raw=true" alt="course structure" width="600">
+<a href="https://youtu.be/3_ZZ80Symjc" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/python_videos/packaging.png?raw=true" alt="course structure" width="600">
 </a>
