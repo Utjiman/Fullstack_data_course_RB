@@ -47,20 +47,20 @@ Throughout the course, there will be video lectures covering all parts
 
 ## Part 2
 
-| Week   | Content                                 | Lecture |
-| ------ | --------------------------------------- | ------- |
-| week 2 | **API**                                 | 11      |
-|        | - get data from API                     |         |
-| week 3 | **project start**                       |         |
-|        | - git branches, pull requests           |         |
-|        | - github projects for kanban            |         |
-|        | - issues                                |         |
-|        | - create a package                      |         |
-| week 4 | **continous integration (CI), project** |         |
-|        | - github actions                        |         |
-|        | - toolings: black, flake8               |         |
-| week 5 | **continous deployment (CD), project**  |         |
-|        | - github actions for CD                 |         |
-| week 6 | **project**                             |         |
-|        | - presentation and submit project       |         |
-| week 7 | **buffer time**                         |         |
+| Week   | Content                                 | Lecture | Exercise |
+| ------ | --------------------------------------- | ------- | -------- |
+| week 2 | **API**                                 | 11      | 4        |
+|        | - get data from API                     |         |          |
+| week 3 | **project start**                       | 12, 13  | project  |
+|        | - git branches, pull requests           |         |          |
+|        | - github projects for kanban            |         |          |
+|        | - issues                                |         |          |
+|        | - create a package                      |         |          |
+| week 4 | **continous integration (CI), project** | 14      | project  |
+|        | - github actions                        |         |          |
+|        | - toolings: black, flake8               |         |          |
+| week 5 | **continous deployment (CD), project**  |         | project  |
+|        | - github actions for CD                 |         |          |
+| week 6 | **project**                             |         | project  |
+|        | - presentation and submit project       |         |          |
+| week 7 | **buffer time**                         |         |          |
